@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-container {
+	width: 100vw;
+	height: 520px;
+	background: linear-gradient(
+		180deg,
+		rgba(36, 36, 40, 1) 9%,
+		rgba(44, 44, 48, 1) 37%,
+		rgba(46, 46, 50, 1) 52%,
+		rgba(58, 58, 62, 1) 72%,
+		rgba(62, 62, 66, 1) 100%,
+		rgba(204, 204, 204, 1) 100%
+	);
+}
+
+.min-content {
+	margin-left: 160px;
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+}
+.cards {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6, 180px);
+	gap: 1rem;
+	margin: 100px auto;
+	justify-content: center;
+}
+
+.card h1 {
+	font-size: 1rem;
+}
+.cardImg img {
+	width: 100%;
+	height: 300px;
+}
